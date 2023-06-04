@@ -1,0 +1,38 @@
+.main-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-auto-rows: 250px;
+  gap: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section {
+  background-color: whitesmoke;
+  display: grid;
+  grid-auto-rows: 30px;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.item {
+  background-color: orangered;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hello {
+  border: 2px dashed red;
+}
